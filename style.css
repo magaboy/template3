@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    font-family: PT Sans;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+.wrap{
+    width:1170px;
+    margin: auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul, footer ul{
+    font-size: 14px;
+    padding: 0;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header a, footer a{
+    text-decoration: none;
+    color:#fff
+}
+.logo-item-2{
+    padding: 3px 5px;
+    background-color: #4A90E2;
+    border-radius: 4px;
+}
+.search{
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    border-radius: 5px;
+}
+.vehicle, .bmw{
+    background-color: #4A90E2;
+    color:#fff;
+    padding: 4px 12px;
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 22px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.top-section{
+    margin: 30px 0 75px 0;
+}
+.top-section-block-right{
+    width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.date{
+    font-size: 14px;
+    font-family: 400;
+    opacity: 0.8;
+    color: #fff;
+    position: absolute;
+    left: 22px;
+    bottom: 100px
+}
+.top-section-card-left,
+.top-section-card-right{
+    position: relative;
+}
+.top-section-card-right{
+    width: 370px;
+}
+.title{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 30px
+}
+.posts{
+    margin-bottom: 200px;
+    width: 770px;
+    position: relative;
+}
+.posts .vehicle{
+    position: static;
+}
+.posts-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.news-date, 
+.field-of-activity, 
+.asede-date{
+    color: #666666;
+    font-style: italic;
+    font-size: 14px;
+}
+.description{
+    width: 730px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+.paragraph{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666666;
+}
+.buttons-toolbar button{
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+.sidebar{
+    width: 270px;
+}
+.sidebar-item{
+    padding-bottom: 40px;
+}
+.profile-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+.aside-button{
+    width: 270px;
+    height: 50px;
+    background: #232323;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.popular-posts-item{
+    padding-bottom: 30px;
+    position: relative;
+}
+.popular-posts-item .vehicle, .bmw{
+    top: 20px;
+}
+.instagram-items{
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.tegs-items{
+    display: flex;
+    flex-wrap:wrap;
+}
+.teg{
+    background: #EBEBEB;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.subscription{
+    color: #666666;
+    margin-bottom: 30px;
+}
+aside input, footer input{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+.most-popular{
+    padding: 60px 0 80px;
+}
+.most-popular-items{
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular-item{
+    width: 270px;
+    position: relative;
+}
+footer{
+    background-color:#171717;
+    padding: 50px 0 0 0;
+    color:#fff;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    width: 270px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #373737;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-desc{
+    padding: 0 0 40px;
+}
+.recent-posts-item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+footer h4{
+    margin: 0;
+}
+footer h3{
+    margin-top: 0px;
+}
+.footer-item-2{
+    width: 300px;
+}
+.foot-txt{
+    width: 178px;
+}
+.footer-nav{
+    background-color: #000000;
+}
+.footer-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.footer-nav-item-txt{
+    font-size: 14px;
+    font-weight: 400px;
+}
